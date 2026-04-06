@@ -1,0 +1,87 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad4ba;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #060606, #0f0f0f);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nav */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Form elements */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Focus effect (requirement) */
+input:focus, textarea:focus {
+    border-color: #0083b0;
+    outline: none;
+}
+
+/* Button */
+button {
+    background: #0083b0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background: #005f73;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
