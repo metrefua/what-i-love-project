@@ -14,11 +14,13 @@ body {
     padding: 20px;
 }
 
+
 /* Navigation bar */
 nav {
     background-color: #333;
     padding: 10px;
     text-align: center;
+    
 }
 
 nav a {
@@ -29,18 +31,21 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: #f4eded;
 }
 
 /* Main content */
-main {
-    max-width: 800px;
+section {
     margin: 30px auto;
-    background: #fff;
-    padding: 25px;
+    padding: 100px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(244, 242, 239);
     text-align: center;
+    background-image: url(../images/pexels-george-alex-2149495333-31054101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: max-content;
 }
 
 /* Title */
@@ -51,17 +56,36 @@ h1 {
 
 /* Paragraphs */
 p {
-    margin-bottom: 15px;
+    margin-bottom: 100px;
     font-size: 16px;
+    font-weight: bolder;
+}
+
+div {
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(28, 30, 29);
+    text-decoration: none;
+
+}
+
+a:hover {
+   color: rgb(230, 185, 101);
 }
 
 /* Quote */
 blockquote {
     margin-top: 20px;
     font-style: italic;
-    color: #555;
+    color: #141414;
     border-left: 4px solid #333;
     padding-left: 10px;
+    font-size: 30px;
 }
 
 /* Footer */

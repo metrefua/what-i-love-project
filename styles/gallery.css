@@ -32,10 +32,13 @@ nav a:hover {
 
 /* Main */
 main {
-    max-width: 1000px;
     margin: 30px auto;
     padding: 20px;
     text-align: center;
+    background-image: url(../images/pexels-george-alex-2149495333-31054101.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 /* GALLERY GRID (IMPORTANT REQUIREMENT) */
