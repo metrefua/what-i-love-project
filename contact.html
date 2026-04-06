@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles/contact.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <h2>Get in Touch</h2>
+        <p>Feel free to send me a message.</p>
+
+        <!-- Form -->
+        <form>
+
+            <!-- Name -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <!-- Age -->
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <!-- Gender (Radio) -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br><br>
+
+            <!-- Preferences (Checkbox) -->
+            <label>What do you like?</label><br>
+            <input type="checkbox" id="option1" name="interest">
+            <label for="option1">Design</label><br>
+
+            <input type="checkbox" id="option2" name="interest">
+            <label for="option2">Coding</label><br>
+
+            <input type="checkbox" id="option3" name="interest">
+            <label for="option3">Creativity</label><br><br>
+
+            <!-- Range -->
+            <label for="range">Satisfaction Level:</label><br>
+            <input type="range" id="range" name="range"><br><br>
+
+            <!-- Message -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+            <!-- Submit -->
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Personal Website</p>
+    </footer>
+
+</body>
+</html>
