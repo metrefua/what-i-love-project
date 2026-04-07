@@ -9,6 +9,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #dad4ba;
+    background-image: url(../images/pexels-george-alex-2149495333-31054101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
 }
@@ -33,28 +36,39 @@ nav a {
     font-weight: bold;
 }
 
+nav a:link {
+    color: lightslategrey;
+}
+nav a:visited {
+    color: rgb(188, 180, 180);
+}
 nav a:hover {
-    text-decoration: underline;
+    color:bisque;
+}
+nav a:active {
+    color: rgb(65, 60, 36);
 }
 
 /* Main Content */
 main {
     max-width: 900px;
     margin: 100px auto;
-    padding: 100px;
+    padding: 10px;
 }
 
 /* Sections (Card Style) */
 section {
     background: rgb(222, 205, 166);
+    margin: 10px;
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid #ddd;
+    border: 2px solid #ebc0c0;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    box-sizing: border-box;
 }
 
-/* Hover effect (requirement: transform + transition) */
+/* Hover effect */
 section:hover {
     transform: scale(1.02);
 }
@@ -68,6 +82,22 @@ h2 {
 /* Paragraphs */
 p {
     margin-bottom: 10px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #777;
 }
 
 /* Lists */

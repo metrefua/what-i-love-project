@@ -41,7 +41,7 @@ main {
     background-size: contain;
 }
 
-/* GALLERY GRID (IMPORTANT REQUIREMENT) */
+/* GALLERY GRID*/
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -22,57 +22,61 @@
     <!-- Main -->
     <main>
 
-        <h2>Get in Touch</h2>
-        <p>Feel free to send me a message.</p>
+       
+        <h2>Let's Talk About Sunsets 🌅</h2>
+        <p>
+            If sunsets inspire you the way they inspire me, feel free to share your thoughts,
+            favorite moments, or even your own sunset experiences.
+        </p>
 
         <!-- Form -->
         <form>
 
             <!-- Name -->
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name"  required><br><br>
 
             <!-- Age -->
-            <label for="age">Age:</label><br>
+            <label for="age">Your Age:</label><br>
             <input type="number" id="age" name="age" required><br><br>
 
-            <!-- Gender (Radio) -->
-            <label>Gender:</label><br>
-            <input type="radio" id="male" name="gender">
-            <label for="male">Male</label><br>
+            <!-- Favorite Sunset Type (Radio) -->
+            <p>Favorite Type of Sunset:</p><br>
+            <label for="beach">Beach Sunset</label>
+            <input type="radio" id="beach" name="sunset">
+            <label for="city">City Sunset</label>
+            <input type="radio" id="city" name="sunset">
+            <label for="mountain">Mountain Sunset</label>
+            <input type="radio" id="mountain" name="sunset">
+            <br><br>
 
-            <input type="radio" id="female" name="gender">
-            <label for="female">Female</label><br><br>
+            <!-- What you enjoy (Checkbox) -->
+            <p>What do you enjoy about sunsets?</p><br>
+            <label for="colors">Colors</label><br>
+            <input type="checkbox" id="colors" name="interest">
+            <label for="peace">Peaceful feeling</label><br>
+            <input type="checkbox" id="peace" name="interest">
+            <label for="photography">Photography</label><br>
+            <input type="checkbox" id="photography" name="interest">
+            <br><br>
 
-            <!-- Preferences (Checkbox) -->
-            <label>What do you like?</label><br>
-            <input type="checkbox" id="option1" name="interest">
-            <label for="option1">Design</label><br>
-
-            <input type="checkbox" id="option2" name="interest">
-            <label for="option2">Coding</label><br>
-
-            <input type="checkbox" id="option3" name="interest">
-            <label for="option3">Creativity</label><br><br>
-
-            <!-- Range -->
-            <label for="range">Satisfaction Level:</label><br>
+            <!-- Satisfaction -->
+            <label for="range">How much do you love sunsets?</label><br>
             <input type="range" id="range" name="range"><br><br>
 
             <!-- Message -->
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+            <label for="message">Share your favorite sunset moment:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
 
             <!-- Submit -->
-            <button type="submit">Submit</button>
+            <button type="submit">Send Message</button>
 
         </form>
-
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>© 2026 My Personal Website</p>
+        <p>© 2026 Sunsets</p>
     </footer>
 
 </body>

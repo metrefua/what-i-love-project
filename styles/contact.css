@@ -9,7 +9,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #dad4ba;
-}
+    background-image: url(../images/pexels-george-alex-2149495333-31054101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 /* Header */
 header {
@@ -34,7 +36,7 @@ nav a:hover {
 main {
     max-width: 600px;
     margin: 30px auto;
-    background: white;
+    background: scroll;
     padding: 20px;
     border-radius: 10px;
 }
@@ -64,6 +66,12 @@ input:focus, textarea:focus {
     outline: none;
 }
 
+input[type="radio"], label {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
 /* Button */
 button {
     background: #0083b0;
@@ -84,4 +92,4 @@ footer {
     text-align: center;
     margin-top: 20px;
     color: #777;
-}
+}}
